@@ -16,6 +16,8 @@
 /build
 
 # misc
+/public/All-Texts
+/public/images
 .DS_Store
 *.pem
 
