@@ -4,14 +4,17 @@ import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Image from 'next/image';
 import profilePic2 from '../assets/developer-pic-1.png'
-import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
+import { useInView, useMotionValue, useSpring } from 'framer-motion';
+import Skills from '@/components/skills';
+import Experience from '@/components/Experience';
+import Education from '@/components/Education'
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
 
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if(isInView) {
@@ -53,9 +56,8 @@ const about = () => {
             </article>
             
             <article className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
-              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark'>
-                <Image src={profilePic2} alt="personal photo" className='w-full h-auto rounded-2xl'/>
-              </div>
+              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
+              <Image src={profilePic2} alt="personal photo" className='w-full h-auto rounded-2xl'/>
             </article>
 
             <article className='col-span-2 flex flex-col items-end justify-between'>
@@ -76,6 +78,9 @@ const about = () => {
             </article>
 
           </section>
+          <Skills />
+          <Experience />
+          <Education />
         </Layout>
       </main>
     </>
