@@ -5,8 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image'
 import { motion, useMotionValue } from 'framer-motion';
 import AnimatedText from '@/components/AnimatedText';
-import article1 from '../../public/images/articles/create loading screen in react js.jpg'
-import article2 from '../../public/images/articles/create modal component in react using react portals.png'
+// import article1 from '../../public/images/articles/create loading screen in react js.jpg'
+// import article2 from '../..public/create modal component in react using react portals.png'
 import TransitionEffect from '@/components/Transition';
 
 const FramerImage = motion(Image);
@@ -96,7 +96,7 @@ const articles = () => {
         <Layout className='pt-16'>
           <AnimatedText text="Sharing Knowledge, Inspiring Growth." className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
           <ul className='grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16'>
-            <FeaturedArticles 
+            {/* <FeaturedArticles 
               img={article1}
               title="title of a cool story"
               time="10 minutes"
@@ -109,11 +109,11 @@ const articles = () => {
               time="10 minutes"
               summary="this is a cool summary of a story"
               link="/"
-            />  
+            />   */}
           </ul>
           <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
           <ul>
-            <Article 
+            {/* <Article 
               title="This is the title."
               img={article2}
               date="March 22, 2023"
@@ -136,7 +136,7 @@ const articles = () => {
               img={article2}
               date="March 22, 2023"
               link="/"
-            />
+            /> */}
           </ul>
         </Layout>
       </main>

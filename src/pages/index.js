@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import Image from 'next/image';
-import devPic from '../../src/assets/developer-pic-1.png'
+import devPic from '../../public/developer-pic-1.png'
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons';
 import TransitionEffect from '@/components/Transition'
-// import lightBulb from '../../src/assets/miscellaneous_icons_1.svg'
+// import lightBulb from '../..public/miscellaneous_icons_1.svg'
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-4 lg:self-center'>
                 <Link 
-                  href="./assets/resume.pdf" 
+                  href=".resume.pdf" 
                   target={"_blank"}
                   download={true}
                   className='
