@@ -16,7 +16,6 @@
 /build
 
 # misc
-/public
 .DS_Store
 *.pem
 
