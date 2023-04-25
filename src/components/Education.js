@@ -42,17 +42,11 @@ const Education = () => {
         </motion.div>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details 
-            type="California State University"
-            time="2021"
+            type="California State University of Pomona"
+            time="Pomona, CA"
             place="U.S.A"
-            info="stuff"
+            info=""
           />
-          <Details 
-            type="California State University"
-            time="2021"
-            place="U.S.A"
-            info="stuff"
-          /> 
         </ul>
       </article>
     </section>

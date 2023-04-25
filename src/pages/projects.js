@@ -8,11 +8,11 @@ import { motion } from 'framer-motion';
 import AnimatedText from '@/components/AnimatedText';
 import TransitionEffect from '@/components/Transition';
 
-import chatProject from '../assets/chat.png';
-import choreProject from '../assets/chore_runner.png';
+import chatProject from '../assets/chat.PNG';
+import choreProject from '../assets/chore_runner.PNG';
 import deliveryProject from '../assets/delivery.png';
 import evolveProject from '../assets/evolve.png';
-import shoplocalProject from '../assets/local.png';
+import shoplocalProject from '../assets/local.PNG';
 import webpackProject from '../assets/webpack.png';
 
 const FramerImage = motion(Image)
