@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import Head from 'next/head';
-import Layout from '@/components/Layout';
+import Layout from '../components/Layout';
 import Link from 'next/link';
 import Image from 'next/image'
 import { motion, useMotionValue } from 'framer-motion';
-import AnimatedText from '@/components/AnimatedText';
+import AnimatedText from '../components/AnimatedText';
 // import article1 from '../../public/images/articles/create loading screen in react js.jpg'
 // import article2 from '../..public/create modal component in react using react portals.png'
-import TransitionEffect from '@/components/Transition';
+import TransitionEffect from '../components/Transition';
 
 const FramerImage = motion(Image);
 

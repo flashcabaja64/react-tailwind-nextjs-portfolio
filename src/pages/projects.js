@@ -2,11 +2,11 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import Layout from '@/components/Layout';
-import { GithubIcon } from '@/components/Icons';
+import Layout from '../components/Layout';
+import { GithubIcon } from '../components/Icons';
 import { motion } from 'framer-motion';
-import AnimatedText from '@/components/AnimatedText';
-import TransitionEffect from '@/components/Transition';
+import AnimatedText from '../components/AnimatedText';
+import TransitionEffect from '../components/Transition';
 
 import chatProject from '../../public/chat.jpg';
 import choreProject from '../../public/chore_runner.jpg';

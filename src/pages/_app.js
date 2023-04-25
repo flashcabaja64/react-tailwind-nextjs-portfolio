@@ -1,7 +1,7 @@
-import '@/styles/globals.css';
+import '../styles/globals.css';
 import { Montserrat } from 'next/font/google';
 import Head from 'next/head';
-import Footer from '@/components/Footer';
+import Footer from '../components/Footer';
 import { AnimatePresence } from 'framer-motion';
 
 import NavBar from '../components/NavBar';

@@ -2,10 +2,10 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import Image from 'next/image';
 import devPic from '../../public/developer-pic-1.png'
-import AnimatedText from '@/components/AnimatedText';
+import AnimatedText from '../components/AnimatedText';
 import Link from 'next/link'
-import { LinkArrow } from '@/components/Icons';
-import TransitionEffect from '@/components/Transition'
+import { LinkArrow } from '../components/Icons';
+import TransitionEffect from '../components/Transition'
 // import lightBulb from '../..public/miscellaneous_icons_1.svg'
 
 export default function Home() {
