@@ -29,7 +29,7 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-4 lg:self-center'>
                 <Link 
-                  href="../assets/resume.pdf" 
+                  href="/resume.pdf" 
                   target={"_blank"}
                   download={true}
                   className='
