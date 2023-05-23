@@ -54,7 +54,7 @@ const projectDetails = [
   },
   {
     id: 6,
-    title: "Chow Cab",
+    title: "Chow Cab (Native)",
     summary: "Chow Cab is a food delivery app that connects customers with local restaurants. Users can browse menus, place orders, and track deliveries in real-time. The app's intuitive interface and widespread availability make it a popular choice for anyone looking to order food from the comfort of their own home.",
     img: deliveryProject,
     link: "https://expo.dev/%40flashcabaja64/newapp?serviceType=classic&distribution=expo-go&releaseChannel=default",
@@ -63,7 +63,7 @@ const projectDetails = [
   },
   {
     id: 7,
-    title: "Rent a Car",
+    title: "Rent a Car (Native)",
     summary: "Rent-A-Car app is a car sharing app that helps users book cars local to their area. They can filter based on the types of car they want to rent and view all the pertinent information in order for them to make an inform decision.",
     img: rentProject,
     link: "https://expo.dev/@flashcabaja64/rent-a-car?serviceType=classic&distribution=expo-go",
