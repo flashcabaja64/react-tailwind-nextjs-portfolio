@@ -4,6 +4,7 @@ import deliveryProject from '../../public/delivery.jpg';
 import evolveProject from '../../public/evolve.jpg';
 import shoplocalProject from '../../public/local.jpg';
 import webpackProject from '../../public/webpack.jpg';
+import rentProject from '../../public/rentCar.jpeg';
 
 const projectDetails = [
   {
@@ -47,7 +48,7 @@ const projectDetails = [
     title: "Chore Runner",
     summary: "Help track child chores and reward them upon completion is a fantastic tool for busy parents. With its intuitive interface and advanced functionality, this platform makes it easy to create chore charts, assign tasks, and track progress. Whether you're looking to teach your children responsibility or simply keep your household running smoothly, this website is an excellent resource for anyone looking to simplify their daily routines.",
     img: choreProject,
-    link: "http://chorerunner-client.now.sh",
+    link: "https://chore-runner-client.vercel.app/",
     github: "https://github.com/flashcabaja64/ChoreRunner-Client",
     type: "Track Children's House Chores"
   },
@@ -59,6 +60,15 @@ const projectDetails = [
     link: "https://expo.dev/%40flashcabaja64/newapp?serviceType=classic&distribution=expo-go&releaseChannel=default",
     github: "https://github.com/Team-Food-Delivery/food-delivery-webapp",
     type: "Order Local Food Deliveries",
+  },
+  {
+    id: 7,
+    title: "Rent a Car",
+    summary: "Rent-A-Car app is a car sharing app that helps users book cars local to their area. They can filter based on the types of car they want to rent and view all the pertinent information in order for them to make an inform decision.",
+    img: rentProject,
+    link: "https://expo.dev/@flashcabaja64/rent-a-car?serviceType=classic&distribution=expo-go",
+    github: "https://github.com/flashcabaja64/rent-a-car-app",
+    type: "Local Car Rentals",
   },
 ]
 
