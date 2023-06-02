@@ -36,10 +36,10 @@ const AnimatedNumbers = ({ value }) => {
   )
 }
 
-const about = () => {
+const About = () => {
   return (
     <>
-      <Head>
+      <Head id="about-page">
         <title>Hubert Yang | About Page</title>
         <meta name="description" content="Hubert Yang About Page"></meta>
       </Head>
@@ -53,7 +53,7 @@ const about = () => {
               <p className='font-medium'>
                 My journey in web development began when I discovered my love for both design and technology. I quickly realized that front end development was the perfect intersection of these two passions, allowing me to bring my creative ideas to life through code. Over the years, I&apos;ve honed my skills in HTML, CSS, JavaScript, and various front end frameworks and libraries, and I&apos;m always eager to learn more.</p>
               <p className='font-medium mt-6'>
-                For me, front end development is about more than just writing code it&apos;s about solving problems and making a real impact on people&apos;s lives. Whether it&apos;s through a sleek and intuitive user interface, a seamless mobile experience, or an accessible and inclusive design, I strive to create web experiences that are not only visually stunning but also functional and user-friendly. I believe that great design and great code go hand in hand, and I&apos;m committed to delivering both to my clients and users.
+                For me, Front End development is about more than just writing code it&apos;s about solving problems and making a real impact on people&apos;s lives. Whether it&apos;s through a sleek and intuitive user interface, a seamless mobile experience, or an accessible and inclusive design, I strive to create web experiences that are not only visually stunning but also functional and user-friendly. I believe that great design and great code go hand in hand, and I&apos;m committed to delivering both to my clients and users.
               </p>
             </article>
             
@@ -101,4 +101,4 @@ const about = () => {
   )
 }
 
-export default about;
+export default About;
