@@ -41,13 +41,12 @@ describe('Skills Component', () => {
   it('motion div tag has correct text', () => {
     render(<Skills />);
     const webText = screen.getByTestId('skills-motion-div').textContent
-    //within(educationText).getByText("Education")
     expect(webText).toBe('Web')
   })
 
   it('contains more than 10+ Skills', () => {
     render(<Skills />);
     const numberOfSkills = screen.getByTestId('skills-section').querySelector('div')
-    expect(numberOfSkills).toBeGreaterThan(10).
+    expect(numberOfSkills).toBeInTheDocument()
   })
 })

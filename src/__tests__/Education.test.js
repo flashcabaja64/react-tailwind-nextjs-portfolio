@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, screen, within, cleanup, getByTestId } from '@testing-library/react';
+import { render, screen, cleanup } from '@testing-library/react';
 import Education from '../components/Education';
 
 
