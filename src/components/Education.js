@@ -42,6 +42,12 @@ const Education = () => {
         </motion.div>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details 
+            type="Thinkful - Full-Stack Engineering Apprenticeship"
+            time="2019"
+            place="Los Angeles, CA"
+            info="Under the guidance of professional developers, I learned solid fundamentals of industry Full-Stack Development: React, SQL, Agile, Algorithms, UI/UX Design."
+          />
+          <Details 
             type="California State University of Pomona"
             time="Pomona, CA"
             place="U.S.A"

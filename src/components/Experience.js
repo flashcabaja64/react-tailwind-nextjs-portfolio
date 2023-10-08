@@ -72,14 +72,6 @@ const Experience = () => {
             address="Torrance, CA"
             work="Healthcare insurance providers require to follow a rigorous set of government regulations to determine the salary of agents. We take those regulations and calculate an agents payout/commission with a click of a button."
           />
-          <Details 
-            company="Thinkful"
-            companyURL="https://www.thinkful.com/"
-            position="Full-Stack Engineering Apprenticeship"
-            time="2019"
-            address="Los Angeles, CA"
-            work=""
-          />
         </ul>
       </article>
     </section>
