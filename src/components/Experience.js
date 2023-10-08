@@ -49,6 +49,14 @@ const Experience = () => {
         </motion.div>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details 
+            company="Hack For LA"
+            companyURL="https://www.hackforla.org/"
+            position="Front-End Engineer"
+            time="2023 - Present"
+            address="Los Angeles, CA"
+            work="Work with non-profit organizations to develop applications to streamline their processes, from UI designs to full-blown applications."
+          />
+          <Details 
             company="SHOP.COM"
             companyURL="https://www.shop.com/"
             position="Front-End Engineer"
@@ -62,7 +70,7 @@ const Experience = () => {
             position="Full-Stack Engineer"
             time="2019 - 2021"
             address="Torrance, CA"
-            work="Developed within the Front-End team responsible for managing and designing new/old features for SHOP.COM's e-commerce platform, including exponentially increasing the performance and optimization of their web site, leading to customer site retention time."
+            work="Healthcare insurance providers require to follow a rigorous set of government regulations to determine the salary of agents. We take those regulations and calculate an agents payout/commission with a click of a button."
           />
           <Details 
             company="Thinkful"
@@ -70,7 +78,7 @@ const Experience = () => {
             position="Full-Stack Engineering Apprenticeship"
             time="2019"
             address="Los Angeles, CA"
-            work="Developed within the Front-End team responsible for managing and designing new/old features for SHOP.COM's e-commerce platform, including exponentially increasing the performance and optimization of their web site, leading to customer site retention time."
+            work=""
           />
         </ul>
       </article>
