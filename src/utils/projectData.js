@@ -8,15 +8,15 @@ import rentProject from '../../public/rentCar.jpeg';
 import aiToolboxProject from '../../public/ai_toolbox.jpg'
 
 const projectDetails = [
-  {
-    id: 1,
-    title: "AI Toolbox",
-    summary: "Explore a comprehensive online platform that houses a diverse collection of cutting-edge AI tools. This website is your gateway to a wealth of artificial intelligence resources, offering solutions for tasks ranging from natural language processing and image generation to text summarization and text to audio conversions. Harness the power of AI effortlessly.",
-    img: aiToolboxProject,
-    link: "https://ai-toolbox.vercel.app/",
-    github: "https://github.com/flashcabaja64/ai-toolbox",
-    type: "AI Tools"
-  },
+  // {
+  //   id: 1,
+  //   title: "AI Toolbox",
+  //   summary: "Explore a comprehensive online platform that houses a diverse collection of cutting-edge AI tools. This website is your gateway to a wealth of artificial intelligence resources, offering solutions for tasks ranging from natural language processing and image generation to text summarization and text to audio conversions. Harness the power of AI effortlessly.",
+  //   img: aiToolboxProject,
+  //   link: "https://ai-toolbox.vercel.app/",
+  //   github: "https://github.com/flashcabaja64/ai-toolbox",
+  //   type: "AI Tools"
+  // },
   {
     id: 2,
     title: "Chat Away App",

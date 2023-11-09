@@ -7,6 +7,7 @@ import { GithubIcon } from '../components/Icons';
 import { motion } from 'framer-motion';
 import AnimatedText from '../components/AnimatedText';
 import TransitionEffect from '../components/Transition';
+import aiToolboxProject from '../../public/ai_toolbox.jpg'
 
 import projectDetails from '../utils/projectData';
 
@@ -99,6 +100,16 @@ const Projects = () => {
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Creating Digital Delights!" className='mb-8 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+          <div className='col-span-12 mb-20'>
+            <FeatureProjects 
+              title="AI Toolbox (Work In Progress)"
+              summary="Explore a comprehensive online platform that houses a diverse collection of cutting-edge AI tools. This website is your gateway to a wealth of artificial intelligence resources, offering solutions for tasks ranging from natural language processing and image generation to text summarization and text to audio conversions. Harness the power of AI effortlessly."
+              img={aiToolboxProject}
+              link="https://ai-toolbox.vercel.app/"
+              github="https://github.com/flashcabaja64/ai-toolbox"
+              type="AI Tools"
+            />
+          </div>
           <section className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 xs:gap-x-0'>
             {projectDetails.map(item => (
               <div className='col-span-6 sm:col-span-12' key={item.id}>

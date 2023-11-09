@@ -34,7 +34,7 @@ export default function Home() {
                   download={true}
                   className='
                     flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg 
-                    border border-solid border-transparent border-2 font-semibold 
+                    border-solid border-transparent border-2 font-semibold 
 
                     hover:border-dark hover:bg-light hover:text-dark hover:dark:bg-dark 
                     hover:dark:text-light dark:bg-light dark:text-dark hover:dark:border-light 
